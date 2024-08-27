@@ -8,7 +8,7 @@ const PORT = process.env.PORT;
 
 // Middleware
 app.use(cors({
-    origin: 'http://localhost:5173'
+    origin: 'https://portfolio-deepak-bhagat-git-main-deepak-bhagats-projects.vercel.app'
 }));
 
 app.use(express.json()); // Parse JSON bodies
